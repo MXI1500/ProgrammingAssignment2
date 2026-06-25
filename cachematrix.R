@@ -1,7 +1,3 @@
-## These functions create a special matrix object that can cache
-## its inverse. If the inverse has already been computed, it is
-## retrieved from the cache instead of being recomputed.
-
 makeCacheMatrix <- function(x = matrix()) {
 
     inv <- NULL
